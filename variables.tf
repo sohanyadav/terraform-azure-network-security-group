@@ -14,8 +14,8 @@ variable "environment" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation.com"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "sohanyadav"
+  description = "ManagedBy, eg 'sohanyadav'."
 }
 
 variable "repository" {
@@ -190,3 +190,4 @@ variable "flow_log_version" {
   default     = 1
   description = " The version (revision) of the flow log. Possible values are 1 and 2."
 }
+
